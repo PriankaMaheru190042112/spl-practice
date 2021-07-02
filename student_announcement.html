@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="boot_style.css">
+	<link rel="stylesheet" href="CSS/stuent_announcement_style.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<title>Announcement</title>
+	</head>
+
+	<body>
+	 
+	 <div class="wrapper">
+	 	<nav id="sidebar">
+		
+	 		<div class="sidebar-header">
+
+			<div class="container">
+				<a href="#"> <img src="images/ajwad_student.jpg" id="profile_picture"></a>
+			</div>
+				
+			<br><br><br><br>
+
+	 			<a href="#"><h4>Ajwad Abrar</h4></a>
+			<button type="button" class="btn btn-light mx-5" data-toggle="modal" data-target="#myModal" id="update_button">Update</button>
+
+	 		</div>
+ 
+			 
+		 <!--update profile modal-->
+			 <div class="container" id="mod_con">
+		
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog modal-lg">
+				
+				<!-- Modal content-->
+				<div class="modal-content">
+
+					<div class="modal-header">
+					<img src="#" class="mx-2"> 
+					<a href="">Change</a>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+						<path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+						<path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+					</svg>
+					</div>
+
+
+
+					<div class="modal-body">
+	
+					<form class="form-horizontal" action="">
+						<div class="form-group">
+						<label class="control-label col-sm-2" for="email">Email:</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+						</div>
+						</div>
+						<div class="form-group">
+						<label class="control-label col-sm-2" for="name">Name:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+						</div>
+						</div>
+						<div class="form-group">
+						<label class="control-label col-sm-2" for="pwd">Password:</label>
+						<div class="col-sm-10">          
+							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+						</div>
+						</div>
+						<div class="form-group">
+						<label class="control-label col-sm-2" for="pwd">Password:</label>
+						<div class="col-sm-10">          
+							<input type="password" class="form-control" id="cpwd" placeholder="Confirm password" name="cpwd">
+						</div>
+						</div>
+						
+						<div class="form-group">        
+						<div class="col-sm-offset-2 col-sm-10">
+							<button onclick="alert('Your profile has been updated')" href="#ale" type="submit" class="btn btn-default" id="submit">Submit</button>
+
+							
+						</div>
+						</div>
+					</form>
+					
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				
+				</div>
+			</div>
+			
+			</div>
+
+	 		
+	 		<ul class="list-unstyled components">
+	 		
+	 			<li>
+	 				<a href="boot_home.html" >  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-house-door-fill mx-2" viewBox="0 0 16 16">
+				<path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+					</svg>  Home  </a>
+	 		
+	 			</li>
+	 			
+	 			<li>
+	 				<a href="boot_room_req.html"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-person-plus-fill mx-2" viewBox="0 0 16 16">
+				<path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				<path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+				</svg>     Room Request  </a>
+	 			</li>
+
+	 			<li class="active">
+	 				<a href="student_announcement.html" data-toggle="modal" data-target="#annmod"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-megaphone-fill mx-2" viewBox="0 0 16 16">
+				<path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+					</svg>  Announcement</a>
+	 				
+	 			</li>
+	 			<li>
+	 				<a href="boot_resource_req.html"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-patch-check-fill mx-2" viewBox="0 0 16 16">
+			<path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+			</svg>Resource Request</a>
+	 			</li>
+				 <li>
+				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-box-arrow-left mx-2" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+					<path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+				</svg>  Logout</a>
+			</li>
+	 			
+	 		</ul>
+	 		
+	 	</nav>
+	 	
+	 	<div class="content">
+	 		<nav class="navbar navbar-expand-lg navbar-light bg-info p-2">
+	 		<div class="menubg">
+		<button type="button" id="sidebarCollapse" class="btn btn-light">
+			<i class="fa fa-align-justify"></i> <span>Menu</span>
+		</button>
+		 </div>
+	 		
+	 		
+	</div>
+
+	<!--<a class="navbar-brand" href="#">Navbar</a> -->
+	
+</nav>
+
+ <!--Announcement area-->	
+		
+ <!-- <div class="container">
+
+	
+	<!-- The Modal -->
+	<div class="modal fade" id="annmod">
+		<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		
+			<!-- Modal Header -->
+			<div class="modal-header">
+			<h6 class="modal-title-ann"><a href="#" class="">See previous announcements</a></h6>
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			
+			<!-- Modal body -->
+			<div class="modal-body">
+			
+			<form class="form-horizontal" action="">
+				<div class="form-group">
+
+				<div class="form-floating">
+					<label for="floatingTextarea1">Date of Announcement</label><br>
+					<input type="date" placeholder="Leave a comment here" id="floatingTextarea1" style="height: 40px"></textarea>
+					
+					</div>
+
+					
+					<br>
+				<div class="form-floating">
+					<label for="floatingTextarea2">Announcement</label>
+					<textarea class="form-control p-2" placeholder="Write an announement" id="floatingTextarea2" style="height: 150px"></textarea>
+					 
+					</div>
+				 <br>
+				 <abbr title="Insert Attachment">
+					<a href="#">  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+					<path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+					</svg>
+					 </a>
+				 </abbr>
+				 
+				 <abbr title="Insert Image">
+					<a href="">&nbsp;&nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+					<path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+					<path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+					</svg></a>
+				 </abbr>
+				
+				 <br><br>
+				
+
+
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people" id="user" viewBox="0 0 16 16">
+					<path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+					</svg>
+					<h6 > &nbsp; It will appear to those who have access to IUTDMS</h6>
+
+					<br><br>
+				<div class="form-group">        
+				<div class="col-sm-offset-2 col-sm-10">
+					<button onclick="alert('Your announcement has been posted')" href="#ale" type="submit" class="btn btn-default" id="post">Post</button>
+
+					
+				</div>
+				</div>
+			</form>
+			</div>
+			
+			<!-- Modal footer -->
+			<div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+			
+		</div>
+		</div>
+	</div>
+	
+	</div>   
+
+
+
+
+
+	<div class="other-section">
+  
+		<div>
+	
+			<ul class="nav nav-tabs">
+			
+				<li class="nav-item "><a data-toggle="tab" class="nav-link active" href="#inbox">Inbox</a></li>
+				<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#archive">Approved</a></li>
+				<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#sent">Room List</a></li>
+			
+			</ul>
+	
+		</div>
+		
+				
+			
+			 <div class="tab-content">
+	
+					<div id="inbox" class="tab-pane active jumbotron"><p></p>
+	
+				<div id="choose_room"><h1 class="text-center">Choose a room from the list: </h1></div>
+	
+	
+				<div class="container mt-5">
+					<div class="row">
+						<!-- <div class="col-md-2">
+							<h5>Dynamic Drop down</h5>
+						</div> -->
+	
+						<div class="col-md-3">
+	
+							<h4 class="text-center">Hall Name</h4>
+	
+							<select name="car" id="main_menu" class="custom-select">
+								
+								<option value="north">North Hall</option>
+								<option value="south">South Hall</option>
+								<option value="female">Female Hall</option>
+	
+			
+							</select>
+	
+						</div>
+	
+						<div class="col-md-3">
+	
+							<h4 class="text-center">Floor</h4>
+	
+							<select name="carname" id="sub_menu" class="custom-select">
+							</select>
+			
+			
+						</div>
+			
+			
+						<div class="col-md-3">
+	
+							<h4 class="text-center">Room Number</h4>
+	
+							<select name="year" id="sub_menu2" class="custom-select">
+			
+							</select>
+			
+			
+						</div>
+			
+						<div class="col-md-3 ">
+	
+							<h4 class="text-center">Bed Number</h4>
+	
+							<select name="Disc" id="sub_menu3" class="custom-select">
+			
+							</select>
+			
+			
+						</div>
+					</div>
+			
+				</div>
+	
+				<div class="text-center mt-5">
+					<button type="submit" class="btn btn-success btn-lg" id="submit_button">Submit</button>
+				</div>
+				
+	
+			</div>
+	
+					<div id="archive" class="tab-pane"><p></p></div>
+	
+					<div id="sent" class="tab-pane">
+	
+						<nav class="navbar navbar-light bg-light" >
+	
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+	
+						</nav>
+	
+						<p></p>   
+	
+					</div>
+	
+			 </div>
+	
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+	<script>
+		
+
+		$(document).ready(function(){
+				$('#sidebarCollapse').on('click',function(){
+					$('#sidebar').toggleClass('active');
+				});
+			});  
+	</script>
+
+	<script>
+
+	</script>
+	
+	
+	
+	
+	
+	</body>
+</html>

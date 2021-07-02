@@ -1,0 +1,36 @@
+#user{
+    margin-left: 3px;
+    float: left;
+}
+
+#prb{
+  width: 100%;
+}
+
+.modal-title-ann{
+text-decoration: underline;
+color: blue;
+}
+
+
+#submit_button{
+
+    width: 15%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: white;
+    transition: 0.5s;
+  
+}
+
+#submit_button:hover{
+  background:crimson;
+} 
+
+
+
+#choose_room{
+  margin-bottom: 70px;
+  color:orangered;
+}
